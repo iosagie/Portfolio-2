@@ -1,0 +1,119 @@
+nav p {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: #03045e;
+}
+.navbar {
+  border-bottom: #023e8a solid 4px;
+}
+
+.nav-item {
+  font-weight: bolder;
+}
+
+h1 {
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3rem !important;
+  font-weight: bolder !important;
+  /* font-family: 'Open Sans', sans-serif;} */
+  background: linear-gradient(
+      to right,
+      rgba(255, 215, 255, 0) 0%,
+      rgba(225, 255, 255, 0.5) 20%,
+      rgba(255, 255, 255, 0) 61%
+    ),
+    linear-gradient(
+      rgb(97, 183, 217) 52%,
+      rgb(224, 246, 255) 60%,
+      rgb(78, 99, 132) 61%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3rem !important;
+  font-weight: bolder !important;
+  /* font-family: 'Open Sans', sans-serif;} */
+  background: linear-gradient(
+      to right,
+      rgba(255, 215, 255, 0) 0%,
+      rgba(225, 255, 255, 0.5) 20%,
+      rgba(255, 255, 255, 0) 61%
+    ),
+    linear-gradient(
+      rgb(97, 183, 217) 52%,
+      rgb(224, 246, 255) 60%,
+      rgb(78, 99, 132) 61%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: 'Libre Franklin';
+  font-weight: 300;
+}
+
+p {
+  h3 {
+    font-family: 'Libre Franklin';
+    font-weight: 300;
+  }
+}
+
+#portfolio-photo {
+  border: 3px solid grey;
+  width: 40%;
+  border-radius: 1%;
+}
+
+.btn {
+  border: black solid 2px !important;
+}
+
+#projectbutton {
+  margin-bottom: 0.5rem;
+}
+
+.about-container {
+  background-color: #edede9;
+  padding: 70px 0px;
+}
+
+i {
+  font-size: 4rem;
+  background: linear-gradient(
+      to right,
+      rgba(255, 215, 255, 0) 0%,
+      rgba(225, 255, 255, 0.5) 20%,
+      rgba(255, 255, 255, 0) 61%
+    ),
+    linear-gradient(
+      rgb(97, 183, 217) 52%,
+      rgb(224, 246, 255) 60%,
+      rgb(78, 99, 132) 61%
+    );
+}
+
+@media screen and (min-width: 768px) {
+  #portfolio-image {
+    float: left;
+    margin-right: 20px;
+  }
+  .intro-container h1,
+  h3 {
+    margin-left: 20px;
+  }
+}
+
+/* .skills a:hover {
+} */
+/* .img-thumbnail {
+    border-radius: 20%;
+} */
+
+/* color palette https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8  */

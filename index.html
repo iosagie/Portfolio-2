@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,700;1,100&family=Lobster&family=Open+Sans:wght@300&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- resume, projects, contact -->
+        <!-- photos, anchors, footer, accordion, breadcrumbs, header -->
+        <!-- portfolio instructions https://learn.nucamp.co/mod/page/view.php?id=6434 -->
+        <!-- https://www.codementor.io/learn-programming/12-important-things-to-include-in-web-dev-portfolios -->
+        <!-- example portfolio https://startbootstrap.com/previews/personal https://www.marielalopez.com/  -->
+
+        <!-- navbar -->
+        <header class="header">
+            <nav
+                class="navbar navbar-expand-md sticky-top bg-info">
+                <div class="container-fluid">
+                    <p>Iyen Amayo</p>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapsedContent">
+                        <span class="navbar-toggler-icon"><i
+                                class="fa-solid fa-list-dropdown"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarCollapsedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active"
+                                    aria-current="page"
+                                    href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#resume">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#projects">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- how to make ... button dropdown li items -->
+            </nav>
+        </header>
+        <!-- intro -->
+        <main>
+            <section>
+                <div class="intro-container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <h1 class="mt-4">Aspiring Web
+                                Developer</h1>
+                            <h3 class="mt-2">Doing what I can while working
+                                full-time to
+                                transition
+                                into the
+                                tech field.</h3>
+                            <button type="button"
+                                class="btn btn-lg btn-secondary px-4 me-3 col-8 col-lg-3"
+                                href="#projects" id="projectbutton"><strong>Projects</strong></button>
+                            <button type="button"
+                                class="btn btn-lg btn-light px-4 ms-3 col-8 col-lg-3"
+                                href="#about"><strong>About</strong></button>
+                            <img src="/img/1.png" id="portfolio-photo"
+                                class="img-fluid col-md-12 mt-5 mx-auto"
+                                alt="me at botanical gardens">
+                            <!-- <div
+                                class="d-grid gap-2 d-sm-block col-md-8 text-center mt-4 mb-3 mx-auto">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="special">
+                            <h3>Building you a website with a special touch</h3>
+                            <p class="mb-5">Why you should hire me? Explain
+                                reasons. I like
+                                to
+                                learn
+                                new
+                                things, so I'm ready for the next challenge</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- about me section -->
+                <div class="about-container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h2>About Me</h2>
+                            <h3>My name's Iyen Amayo; the learning never stops</h3>
+                            <p class="mt-4">I'm a web developer that loves to be
+                                active.
+                                Whether that be hiking, playing sports, or
+                                biking. I enjoy flexing myself mentally with
+                                programming and physically with
+                                extracurriculars.</p>
+                        </div>
+                    </div>
+                    <div class="card col col-6 mx-auto">
+                        <div class="card-body">
+                            <img class="img-fluid"
+                                src="/img/3.png"
+                                alt="me beach biking">
+                        </div>
+                    </div>
+                    <div class="card col col-6 mx-auto">
+                        <div class="card-body">
+                            <img
+                                src="/img/4.jpeg" class="img-fluid"
+                                alt="beach volleyball">
+                            <p class="card-text">Volleyball's my favorite sport.
+                                It
+                                requires a lot of team synergy and patience to
+                                win
+                                matches. One of the many reasons why I love
+                                volleyball.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <a
+                            href="https://www.linkedin.com/in/iyen-amayo-967868187/">
+                            <i class="fa-brands fa-linkedin me-4"></i></a>
+                        <a
+                            href="https://github.com/iosagie"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer class="container text-center">
+            <div class="row">
+                <p>Copyright &copy; Iyen's Portfolio 2023</p>
+
+                <div class="col-12 d-flex justify-content-between text-center">
+                    <a href>Privacy</a>
+                    <a href>Terms</a>
+                    <a href>Contact</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/62dbd29d3f.js"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+
+    </body>
+</html>
+<!-- 
+    https://www.marielalopez.com/ 
+content blocks: mission statement, contact info, bio, experience, skills,
+projects, education, socials, photo, nav bar?, header/footer,
+3 big divs(highlghted), some p's below, background image, css animations, downloadable resume, 
+
+Week 1 (this week): Project introduction, begin researching content.
+Week 2: Start building a simple html/css version of your project.
+Week 3: Use Bootstrap classes to add more visual content to your project and
+make it mobile-responsive.
+Week 4: Explore using Bootstrap templates, or continue adding to your project
+with interactive Bootstrap components.
+Project Weeks (following the end of the course): Finalize, test, and deploy your
+finished project.
+Note: if you are continuing on to the Front-End or Full-Stack bootcamps after
+completing this course, you will have a 3-week break before your next module.
+This time is yours to continue working on your project, get feedback from your
+classmates, finalize and publish your project, and review what you have learned.
+Later in the program, you will have a 1-week "Project Week" break between every
+module to finalize and publish your projects before the next module begins. -->
