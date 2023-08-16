@@ -110,6 +110,7 @@ i {
   .intro-container h1,
   h3 {
     margin-left: 20px;
+    color: #00b4d8;
   }
 }
 
@@ -162,6 +163,33 @@ p {
 
 #resumeheader {
   margin-right: 6rem;
+}
+
+@media screen and (min-width: 992px) {
+  .job-desc {
+    height: 20rem;
+    width: 60rem;
+  }
+  .job-title {
+    height: 50%;
+    width: 60%;
+    float: left;
+  }
+
+  .education-desc {
+    height: 32rem;
+    width: 60rem;
+  }
+
+  .education-title {
+    height: 25%;
+    width: 75%;
+  }
+
+  .languages div {
+    height: 50%;
+    width: 75%;
+  }
 }
 
 /* .skills a:hover {
