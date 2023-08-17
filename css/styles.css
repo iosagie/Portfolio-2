@@ -192,6 +192,30 @@ p {
   }
 }
 
+.form-background {
+  background-color: #edede9;
+  padding-bottom: 3rem;
+  border-radius: 15%;
+}
+
+#projects-background {
+  background-color: #edede9;
+}
+
+.project-div {
+  border-radius: 12%;
+  box-shadow: 0 4px 5px black;
+  height: 30rem;
+  width: 45rem;
+  margin: 4rem auto;
+  background-color: white;
+}
+
+.colorful {
+  background-image: linear-gradient(210deg, #48cae4, #90e0ef, #ade8f4);
+  padding: 7rem;
+}
+
 /* .skills a:hover {
 } */
 /* .img-thumbnail {
